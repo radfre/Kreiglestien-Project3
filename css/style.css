@@ -197,6 +197,10 @@ header{
   margin-left: 30vw;
 
 }
+#map{
+  height: 40vw;
+  width: 100%;
+}
 
 .Container .text h5{
   font-size: 2vw;
