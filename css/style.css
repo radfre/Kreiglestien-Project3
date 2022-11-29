@@ -32,6 +32,7 @@ header{
   position: fixed;
   display: block;
   top: 0;
+  opacity: 80%;
 
 }
 
@@ -66,6 +67,7 @@ header{
   margin: 0;
   padding: 0;
   top: 0;
+  opacity: 0%;
 
 }
 
@@ -122,6 +124,45 @@ header{
   font-family: 'Tangerine', sans-serif;
 }
 
+#hobby{
+  text-align: center;
+  color: white;
+  background-color: #a61a00;
+
+}
+
+#hobbyTitle {
+  margin: 0% 0% 0 0;
+  background-color: #78866b;
+  display: inline-block;
+  width: 40%;
+  padding: 1vw;
+  margin: 2vh;
+  border-radius: 20em 70em 20em;
+}
+
+#hobbyTitle h1{
+  font-size:8vh;
+  font-family: 'Tangerine', sans-serif;
+
+}
+
+
+
+.hobbysubTitle{
+  border-radius: 50em;
+  text-align: center;
+  padding: 1vw;
+  margin: 4vh;
+  background-color: #0039a6;
+  display: block;
+  width: 30%;
+}
+.hobbysubTitle h2{
+  font-size: 6vh;
+  font-family: 'Tangerine', sans-serif;
+}
+
 .miniTitle{
   margin: 0% 0% 0 0;
   background-color: #99ff99;
@@ -153,6 +194,10 @@ header{
   font-size: 2vw;
   margin-left: 30vw;
 
+}
+
+.Container .text h5{
+  font-size: 2vw;
 }
 
 .Container .text ul{
