@@ -6,8 +6,12 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #000000;
+  background-color: #d76f1b;
   font-family: "Ubuntu", serif;
+}
+#baking{
+  background: chocolate;
+  font-family: 'Helvetica', sans-serif
 }
 
 header{
@@ -76,6 +80,8 @@ header{
   padding: 1vw;
 }
 
+
+
 .subTitle{
   margin: 0% 0% 0 0;
   background-color: #9999ff;
@@ -85,6 +91,33 @@ header{
 .subTitle h2{
   font-size: 3vw;
   padding: 0.25em;
+}
+
+#bakingTitle {
+  margin: 0 0 0 0;
+  background-color: #bcbc73;
+  display: inline-block;
+  width: 100%;
+
+}
+
+#bakingTitle h1{
+  font-size: 4vw;
+  padding: 1vw;
+  font-family: 'Tangerine', sans-serif;
+}
+
+
+
+.bakingsubTitle{
+  margin: 0% 0% 0 0;
+  background-color: #bc7373;
+  display: inline-block;
+  width: 100%;
+}
+.bakingsubTitle h2{
+  font-size: 4vw;
+  font-family: 'Tangerine', sans-serif;
 }
 
 .miniTitle{
@@ -99,19 +132,24 @@ header{
 }
 
 .Container{
-  background-color: #d76f1b;
   display: inline-block;
   width: 100%;
 }
 
 .Container img{
   float: left;
-  width: 27%;
-  margin: 0 2vw 0 0;
+  width: 30%;
+  margin: 0;
+}
+.Container video{
+  float: left;
+  width: 35%;
+  margin: 0 0 0 0;
 }
 
 .Container .text{
   font-size: 2vw;
+  margin-left: 30vw;
 
 }
 
@@ -124,5 +162,9 @@ header{
   padding: 1vw 4vw;
   font-size: 2vw;
   text-decoration: none;
+}
+
+.Container .box {
+  font-size: 2vw;
 }
 
