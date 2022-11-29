@@ -45,6 +45,8 @@ header{
   display: inline-block;
 }
 
+
+
 #navbar ul li a {
   display: block;
   padding: 10% 4vw;
@@ -132,7 +134,6 @@ header{
 }
 
 #hobbyTitle {
-  margin: 0% 0% 0 0;
   background-color: #78866b;
   display: inline-block;
   width: 40%;
@@ -182,6 +183,7 @@ header{
 .Container img{
   float: left;
   width: 30%;
+  max-width: 30%;
   margin: 0;
 }
 .Container video{
@@ -218,3 +220,58 @@ header{
   display: block;
 }
 
+@media only screen and (max-width: 768px) {
+  #hobbyTitle{
+    float: left;
+    margin-bottom: 4vw;
+  }
+  body{
+    text-align: center;
+  }
+  #filler{
+    font-size: 4.1vw;
+  }
+  .Container .text{
+    text-align: center;
+    margin: 1vw;
+  }
+
+  #navbar ul li a {
+    font-size: 4vw;
+  }
+
+  .Container img{
+    width: 50%;
+    float: none;
+    max-width: 50%;
+  }
+
+}
+
+@media only screen and (max-width: 1080px) {
+  #hobbyTitle{
+    float: left;
+    margin-bottom: 3vw;
+  }
+  body{
+    text-align: center;
+  }
+  #filler{
+    font-size: 3vw;
+  }
+  .Container .text{
+    text-align: center;
+    margin: 1vw;
+  }
+
+  #navbar ul li a {
+    font-size: 3vw;
+  }
+
+  .Container img{
+    width: 40%;
+    float: none;
+    max-width: 50%;
+  }
+
+}
