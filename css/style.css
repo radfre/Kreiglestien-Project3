@@ -21,13 +21,13 @@ header{
 
 #navbar-container{
   width: 100%;
+  height: 10%;
   max-height: 10%;
   text-align: center;
 
 }
 #navbar {
   background: black;
-  opacity: 80%;
   width: 100%;
   position: fixed;
   display: block;
@@ -58,9 +58,11 @@ header{
 }
 
 #filler{
-  background: green;
+  background: black;
   color: black;
   font-size: 2vw;
+  height: 10%;
+  max-height: 10%;
   margin: 0;
   padding: 0;
   top: 0;
@@ -166,5 +168,8 @@ header{
 
 .Container .box {
   font-size: 2vw;
+  margin: 4vw;
+  float: right;
+  display: block;
 }
 
